@@ -27,6 +27,7 @@ body {
     -webkit-text-size-adjust: 100%;
     line-height: 1;
     letter-spacing:0.03em;
+    background: rgb(235, 243, 252);
 }
 /* フォントを遊戯フォント→ヒラギノ→メイテオ */
 body{
@@ -86,17 +87,27 @@ small,.copyright {
     font-family: Roboto, Arial, Helvetica, Tahoma, Verdana !important;
 }
 
-
+.waku{
+    width: 60%;
+    margin: 50px auto;
+}
 h1{
-    background: rgb(15, 79, 163);
+    background: rgb(37, 66, 104);
     color: #fff;
-    padding: 10px;
-    margin: 30px;
+    padding: 20px;
+    margin: 0px 30px;
     text-align: center;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 .memo{
-    background: rgb(235, 238, 252);
     line-height: 1.5em;
     color: #333;
+    padding: 5%;
+    margin: 5px 30px;
+    background: #fff;
+}
+.memo p{
+    border-bottom: 1px dashed rgb(161, 182, 228);
+    padding: 10px 0;
+    font-size: 0.8em;
 }
