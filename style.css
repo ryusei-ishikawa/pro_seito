@@ -1,0 +1,102 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    -webkit-text-size-adjust: 100%;
+    line-height: 1;
+    letter-spacing:0.03em;
+}
+/* フォントを遊戯フォント→ヒラギノ→メイテオ */
+body{
+    font-family: 'ヒラギノ角ゴ ProN W3', "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic","Hiragino Kaku Gothic Pro",'Hiragino Kaku Gothic ProN', "Meiryo",sans-serif;
+    font-weight: 500;
+}
+.bold{
+    font-family: 'ヒラギノ角ゴ ProN W3', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", 'Hiragino Kaku Gothic ProN',sans-serif;
+    font-weight: bold;
+  }
+  .bold_ja{
+    font-family: 'ヒラギノ角ゴ ProN W3', "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic",'Hiragino Kaku Gothic ProN', sans-serif;
+    font-weight: 700;
+  }
+  .bold_en{
+    font-family: 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3',sans-serif;
+    font-weight: 500;
+  }
+ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* iOSでのデフォルトスタイルをリセット */
+input[type="submit"],
+input[type="button"] {
+  border-radius: 0;
+  -webkit-box-sizing: content-box;
+  -webkit-appearance: button;
+  appearance: button;
+  border: none;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+input[type="submit"]::-webkit-search-decoration,
+input[type="button"]::-webkit-search-decoration {
+  display: none;
+}
+input[type="submit"]::focus,
+input[type="button"]::focus {
+  outline-offset: -2px;
+}
+
+/* smallの色の調整 */
+small,.copyright {
+    font-family: Roboto, Arial, Helvetica, Tahoma, Verdana !important;
+}
+
+
+h1{
+    background: rgb(15, 79, 163);
+    color: #fff;
+    padding: 10px;
+    margin: 30px;
+    text-align: center;
+    font-size: 2em;
+}
+.memo{
+    background: rgb(235, 238, 252);
+    line-height: 1.5em;
+    color: #333;
+}
